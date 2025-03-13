@@ -18,7 +18,7 @@ git clone https://github.com/pmian/leetcode-solutions.git
 cd leetcode-solutions
 
 ### Compile & run a solution:
-g++ Array/TwoSum.cpp -o TwoSum
+g++ Array/TwoSum.cpp -o TwoSum <br>
 ./TwoSum
 
 ---
