@@ -18,7 +18,9 @@
 ## 🚀 How to Use
 
 ### Clone the repository:
+    Run the following commands:
 
+    ``` bash
     git clone https://github.com/pmian/leetcode-solutions.git
     cd leetcode-solutions
 
