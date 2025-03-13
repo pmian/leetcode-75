@@ -6,7 +6,7 @@
 
 ## 📂 Folder Structure
 
-    Each problem is stored in a separate folder/file, following the naming convention: <br>
+    Each problem is stored in a separate folder/file, following the naming convention:
     /Category/ProblemName.cpp
 
 ### Example:
@@ -19,12 +19,12 @@
 
 ### Clone the repository:
 
-    git clone https://github.com/pmian/leetcode-solutions.git <br>
+    git clone https://github.com/pmian/leetcode-solutions.git
     cd leetcode-solutions
 
 ### Compile & run a solution:
 
-    g++ Array/TwoSum.cpp -o TwoSum <br>
+    g++ Array/TwoSum.cpp -o TwoSum
     ./TwoSum
 
 ---
