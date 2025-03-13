@@ -1,6 +1,8 @@
 # 🚀 LeetCode 75 Study Plan Solutions in C++
 This repository contains my solutions to the LeetCode 75 Study Plan problems, implemented in C++. Each solution follows clean coding practices and is optimized for readability and efficiency.
 
+---
+
 ## 📂 Folder Structure
 Each problem is stored in a separate folder/file, following the naming convention:
 /Category/ProblemName.cpp
