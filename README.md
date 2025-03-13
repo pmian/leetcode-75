@@ -10,6 +10,8 @@ Each problem is stored in a separate folder/file, following the naming conventio
 ### Example:
 /Bit_Manipulation/counting_bits.cpp
 
+---
+
 ## 🚀 How to Use
 ### Clone the repository:
 git clone https://github.com/pmian/leetcode-solutions.git
@@ -19,9 +21,14 @@ cd leetcode-solutions
 g++ Array/TwoSum.cpp -o TwoSum
 ./TwoSum
 
+---
+
 ## 📢 Contributions
 This repo is mainly for my learning, but feel free to fork or suggest optimizations.
+
+---
 
 ## 🔗 Connect
 If you find these solutions useful, leave a ⭐ on GitHub!
 
+---
