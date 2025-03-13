@@ -1,12 +1,17 @@
 # 🚀 LeetCode 75 Study Plan Solutions in C++
 
-    This repository contains my solutions to the LeetCode 75 Study Plan problems, implemented in C++. Each solution follows clean coding practices and is optimized for readability and efficiency.
+    This repository contains my solutions to the
+    LeetCode 75 Study Plan problems, implemented in
+    C++. Each solution follows clean coding
+    practices and is optimized for readability and
+    efficiency.
 
 ---
 
 ## 📂 Folder Structure
 
-    Each problem is stored in a separate folder/file, following the naming convention:
+    Each problem is stored in a separate folder/file,
+    following the naming convention:
     /Category/ProblemName.cpp
 
 ### Example:
@@ -32,12 +37,14 @@
 
 ## 📢 Contributions
 
-    This repo is mainly for my learning, but feel free to fork or suggest optimizations.
+    This repo is mainly for my learning,
+    but feel free to fork or suggest optimizations.
 
 ---
 
 ## 🔗 Connect
 
-    If you find these solutions useful, leave a ⭐ on GitHub!
+    If you find these solutions useful,
+    leave a ⭐ on GitHub!
 
 ---
