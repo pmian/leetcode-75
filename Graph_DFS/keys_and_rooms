@@ -1,0 +1,54 @@
+// https://leetcode.com/problems/keys-and-rooms/submissions/1565777389/?envType=study-plan-v2&envId=leetcode-75
+
+class Solution {
+public:
+void dfs(vector<vector<int>>& rooms, vector<bool>& visited, int room) {
+    visited[room] = true;
+    
+    for (int key : rooms[room]) {
+        if (!visited[key]) {
+            dfs(rooms, visited, key);
+        }
+    }
+}
+
+    bool canVisitAllRooms(vector<vector<int>>& rooms) {
+    //     int n = rooms.size();
+    // vector<bool> visited(n, false);
+    // queue<int> q;
+
+    // // Start from room 0
+    // q.push(0);
+    // visited[0] = true;
+    // int visitedCount = 1;
+
+    // while (!q.empty()) {
+    //     int room = q.front();
+    //     q.pop();
+
+    //     for (int key : rooms[room]) {
+    //         if (!visited[key]) {
+    //             visited[key] = true;
+    //             q.push(key);
+    //             visitedCount++;
+    //         }
+    //     }
+    // }
+
+    // return visitedCount == n;
+
+
+    // USING DFS
+    int n = rooms.size();
+    vector<bool> visited(n, false);
+
+    // Start DFS from room 0
+    dfs(rooms, visited, 0);
+
+    // Check if all rooms are visited
+    for (bool v : visited) {
+        if (!v) return false;
+    }
+    return true;
+    }
+};
